@@ -10,3 +10,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    background-color: rgb(136, 233, 10);
+}
+
+
+.list-group {
+    border: solid black;
+    border-width: 0px 3px 3px 0px;
+}
+
+.list-group-item button{
+    display: none;
+}
+
+.list-group-item:hover button {
+    display: initial;
+    cursor: pointer;
+}
